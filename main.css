@@ -8,11 +8,12 @@ body {
     margin: 0; padding: 0;
     font-family: sans-serif;
     color: var(--dark);
-    background: var(--light);
+    background: #1a659a;
 }
 
 header {
-    margin: 10px;
+    background: var(--light);
+    padding: 10px;
     height: 150px;
     display: flex;
     flex-direction: row;
@@ -28,9 +29,7 @@ header img {
 .main {
     padding: 10px;
     background: #1a659a;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
 }
 
 
@@ -56,6 +55,12 @@ header img {
     text-decoration: none;
     height: calc(100vh - 190px);
     max-height: calc(100vh - 190px);
+}
+
+.site-panel {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .site-panel a {
